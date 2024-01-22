@@ -1,0 +1,40 @@
+
+TO-DO:
+- rerun all with many iterations
+
+OVERVIEW:
+
+folder2:  PRIORS,                 Figure 6, Figure 7, Figure 8, Figure S3, Figure S4
+
+folder3:  WEIGHTS, M_0 > M_1,     Figure 2
+
+folder7:  WEIGHTS: M_0 >> M_1,    Figure 3
+
+folder8:  WEIGHTS: M_0 = M_1,     Figure 4
+
+folder9:  Info content,           Figure 1, Figure S1
+
+folder10: Over-/underest errors,  Figure 5
+
+folder12: chi2r single data,      Figure S2
+
+folder14: KLDs 			  Table 3
+
+NOTES: 
+- folder9: shanum in atsas 3.2.1 worked weird: no values higher than 21, although Ns=22.3 - use shanum from ATSAS version 3.0.3 instead
+- use taskset -c i bash Flow_folderN.sh where i is the cpu number (between 0 and 7) and N is the folder number 
+---------------------
+-- TA-DA and TO-DO --
+---------------------
+folder2   : n = 50,000 DONE!
+folder3 * : n = 50,000 DONE!
+folder7 * : n = 50,000 DONE! 
+folder8 * : n = 50,000 DONE!
+folder9 # : n = 50,000 DONE! 
+folder10  : n = 50,000 DONE! 
+folder12 *: n = 50,000 DONE! 
+folder14  : n = 50,000 DONE!  
+
+* use bift - can only run on linux machine with that executable
+# use bift and shanum - can only run on andy. All ite has do be run in one go (RESTART=1), cannot add on
+
