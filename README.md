@@ -6,7 +6,7 @@ manuscript in preparation
 preprint available: https://arxiv.org/abs/2311.06408    
 
 ## overview of files
-#### bayesfit.py:   
+#### bayesfit.py  
 bayesfit. takes in multiple datafiles and fits with an analytical model    
 
 #### formfactors.py  function.py   get_header_footer.py    
