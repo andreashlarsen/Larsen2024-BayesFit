@@ -6,9 +6,12 @@ manuscript in preparation
 preprint available: https://arxiv.org/abs/2311.06408    
 
 #### overview of files
-bayesfit.py:   bayesfit. takes in multiple datafiles and fits with an analytical model    
+###### bayesfit.py:   
+bayesfit. takes in multiple datafiles and fits with an analytical model    
 
-python files called by bayesfit.py:    
-formfactors.py    
-function.py    
-get_header_footer.py    
+###### formfactors.py  function.py   get_header_footer.py    
+helpfunctions, called by bayesapp.py
+
+ ##### Flow_template.sh Flow.sh
+ bash script that calls bayesapp with various settings, as explained in the paper    
+
