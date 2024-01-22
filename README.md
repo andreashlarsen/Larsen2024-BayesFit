@@ -14,4 +14,3 @@ helpfunctions, called by bayesapp.py
 
  ##### Flow_template.sh Flow.sh
  bash script that calls bayesapp with various settings, as explained in the paper    
-
