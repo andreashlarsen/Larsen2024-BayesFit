@@ -12,8 +12,12 @@ bayesfit. takes in multiple datafiles and fits with an analytical model
 #### formfactors.py  function.py   get_header_footer.py    
 helpfunctions, called by bayesapp.py
 
- #### Flow_template.sh Flow.sh
- bash script that calls bayesapp with various settings, as explained in the paper    
+ #### Flow_template.sh Flow.sh folderX/Flow_foderX.sh
+ bash script that calls bayesapp with various settings (number of points in each dataset, different priors etc)     
+ overview of folders can be found in the LOOGBOOK txt file    
+
+ #### folderX/FigureX.py
+ python scripts for generating the figures of the paper    
 
  ## installation 
  bayesfit.py is a python script (python3), requirements: python3 with numpy, matplotlib, scipy
