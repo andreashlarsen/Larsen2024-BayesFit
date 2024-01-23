@@ -50,6 +50,10 @@ coreshell4_ratio_2 # model
 -10 -10 1          # alpha scan: startvalue, endvalue, number of steps    
 0                  # plot data (0: no, 1: yes)    
 4                  # weight scheme, 0: sum(chi2), 1: sum(chi2/M), 2: sum(Ng*chi2/M), 3: only first dataset, 4: only second dataset    
-17.74              # Ng of first dataset (from BIFT, used to calculated the reduced chi-square, default: 2)    
-4.74               # Ng of second dataset (from BIFT, used to calculate the reduced chi-square, default: 2)
+17.74              # Ng of first dataset (from BIFT, used to calculated the reduced chi-square)    
+4.74               # Ng of second dataset (from BIFT, used to calculate the reduced chi-square)
 ```
+
+the number of lines depends on the number of datasets (number of contrasts) and the model used.    
+available models can be found in the bayesfit.py script, which calls formfactor.py
+the last two lines are only used for weight scheme 2. Can be left blank if this scheme is not used    
