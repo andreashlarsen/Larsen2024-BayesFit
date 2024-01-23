@@ -54,6 +54,7 @@ coreshell4_ratio_2 # model
 4.74               # Ng of second dataset (from BIFT, used to calculate the reduced chi-square)
 ```
 
-the number of lines depends on the number of datasets (number of contrasts) and the model used.    
-available models can be found in the bayesfit.py script, which calls formfactor.py
-the last two lines are only used for weight scheme 2. Can be left blank if this scheme is not used    
+The number of lines depends on the number of datasets (number of contrasts) and the model used.    
+Available models can be found in the bayesfit.py script, which calls the formfactor.py script.
+The last two lines of the inputfile are only used for weight scheme 2. Can be left blank if this scheme is not used    
+
