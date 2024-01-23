@@ -23,7 +23,7 @@ helpfunctions, imported and called by bayesapp.py
  ## installation 
  bayesfit.py is a python script (python3), requirements: python3 with numpy, matplotlib, scipy
 
- ## running
+ ## running bayesfit
  python bayesfit < inputfile
 
 #### inputfile (example for 2 datasets):
