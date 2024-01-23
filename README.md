@@ -19,10 +19,10 @@ helpfunctions, called by bayesapp.py
  bayesfit.py is a python script (python3), requirements: python3 with numpy, matplotlib, scipy
 
  ## running
- python bayesfit < input
+ python bayesfit < inputfile
 
-input (example for 2 datasets):
-test               # output directory name
+#### inputfile (example for 2 datasets):
+output_dir         # output directory name
 2                  # number of contrasts
 Isim1.dat          # first dataset
 Isim2.dat          # second dataset
