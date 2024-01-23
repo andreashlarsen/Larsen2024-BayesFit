@@ -29,7 +29,7 @@ Isim1.dat          # first dataset
 Isim2.dat          # second dataset    
 coreshell4_ratio_2 # model    
 10 5               # mean and std dev of param 1     
-30 10		            # mean and std dev of param 2    
+30 10              # mean and std dev of param 2    
 50 15              # ...    
 70 20              # ...    
 2 0.2              #    
