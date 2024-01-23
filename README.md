@@ -22,7 +22,7 @@ helpfunctions, called by bayesapp.py
  python bayesfit < inputfile
 
 #### inputfile (example for 2 datasets):
-output_dir \t# output directory name    
+output_dir         # output directory name    
 2                  # number of contrasts    
 Isim1.dat          # first dataset    
 Isim2.dat          # second dataset    
