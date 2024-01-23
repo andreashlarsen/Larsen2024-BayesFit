@@ -22,6 +22,7 @@ helpfunctions, called by bayesapp.py
  python bayesfit < inputfile
 
 #### inputfile (example for 2 datasets):
+```
 output_dir         # output directory name    
 2                  # number of contrasts    
 Isim1.dat          # first dataset    
@@ -45,4 +46,5 @@ coreshell4_ratio_2 # model
 0                  # plot data (0: no, 1: yes)    
 4                  # weight scheme, 0: sum(chi2), 1: sum(chi2/M), 2: sum(Ng*chi2/M), 3: only first dataset, 4: only second dataset    
 17.74              # Ng of first dataset (from BIFT, used to calculated the reduced chi-square, default: 2)    
-4.74               # Ng of second dataset (from BIFT, used to calculate the reduced chi-square, default: 2)    
+4.74               # Ng of second dataset (from BIFT, used to calculate the reduced chi-square, default: 2)
+```
