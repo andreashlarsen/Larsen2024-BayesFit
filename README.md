@@ -7,7 +7,7 @@ preprint available: https://arxiv.org/abs/2311.06408
 
 ## overview of files
 #### bayesapp script: bayesfit.py
-bayesfit version 2.3. takes in multiple datafiles and fits with an analytical model    
+bayesfit version 2.3. The program fits multiple SAXS or SANS data simultaneously, with analytical models. Priors can be applied to each parameter in the model. 
 
 #### supporting scripts: formfactors.py  function.py   get_header_footer.py    
 helpfunctions, imported and called by bayesapp.py    
